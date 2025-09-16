@@ -20,7 +20,7 @@
 </div>
 
 <div class="container">
-  <h1 class="text-center mb-4">Masukkan Nilai IPS</h1>
+  <h1 class="text-center mb-4">Input IPS</h1>
 
   <form id="ips-form" action="{{ url_for('predict') }}" method="post" class="mx-auto" style="max-width: 720px;">
     <div class="row g-3">
@@ -32,7 +32,7 @@
           class="form-control"
           id="ips{{i}}"
           name="ips{{i}}"
-          placeholder="Mis. 3.25"
+          placeholder="Exp. 3.25"
           min="0"
           max="4"
           step="0.01"
