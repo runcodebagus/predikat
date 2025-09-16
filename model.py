@@ -25,10 +25,10 @@ def _map_label(label):
     # Kalau label sudah berupa huruf
     if isinstance(label, str):
         mapping = {
-            "A": "Sangat Baik",
-            "B": "Baik",
-            "C": "Cukup",
-            "D": "Buruk",
+            "A": "Excellent",
+            "B": "Good",
+            "C": "Fair",
+            "D": "Poor",
         }
         return mapping.get(label, f"Label tidak dikenali: {label}")
 
